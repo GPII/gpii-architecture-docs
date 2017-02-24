@@ -11,8 +11,22 @@ These source files of diagrams created to demonstrate GPII authorization workflo
 
 The exported PNG format of these source files are used on the wiki page of [GPII Authorization Workflows](https://wiki.gpii.net/w/GPII_Authorization_Workflows).
 
-## One Proposed Authorization Flow
+## One Proposed but Declined Authorization Flow
 
 * Use OAuth2 for native apps.graffle: a proposed authorization workflow using the specification of [OAuth2 for Native Apps](https://tools.ietf.org/html/draft-ietf-oauth-native-apps-06).
 
 The exported PNG format of this source file is used on the wiki page of [Protect communication between Local Flow Manager and Cloud Based Flow Manager](https://wiki.gpii.net/w/Protect_communication_between_Local_Flow_Manager_and_Cloud_Based_Flow_Manager).
+
+## Protect the Communication between GPII Local App and GPII Cloud
+
+* Auth-how to use client id and secret.graffle: the workflow to request an access token using OAuth2 resource owner grant in GPII.
+
+* Dedicated private machine.graffle: the workflow for public machines to request an access token from GPII cloud using dedicated private computer approach.
+
+* Dedicated process-request access token.graffle: the workflow for GPII app to request an access token using dedicated process approach.
+
+* Dedicated process-the start of gpii app.graffle: the workflow to start GPII using dedicated process approach.
+
+* Yubikey OTP.graffle: the workflow to request client secret from GPII cloud with Yubikey OTP (one time password).
+
+The exported PNG format of these source files are used on the wiki page of [Continued Researches on Possible Approaches for Protecting Communication btw LFM and CBFM](https://wiki.gpii.net/w/Continued_Researches_on_Possible_Approaches_for_Protecting_Communication_btw_LFM_and_CBFM#The_Workflow_of_Using_OAuth2_Client_ID.2FSecret).
