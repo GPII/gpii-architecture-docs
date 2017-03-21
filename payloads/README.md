@@ -32,7 +32,7 @@ The following is the trace of requests and payloads when a user keys into GPII:
 * [Solutions Registry](SolutionsRegistry.md)
 * [Cloud Based Match Maker](CloudBasedMatchMaker.md)
 * [OAuth Server](OAuthServer.md)
-* [Cloud Based Context Manager](CloudBasedContextManager.md)
+* [Context Manager](ContextManager.md)
 * [Cloud Based Transformer](CloudBasedTransformer.md)
 * [Life Cycle Manager](LifecycleManager-KeyInAndContextChange.md)
 * [Settings Handler](SettingsHandler.md)

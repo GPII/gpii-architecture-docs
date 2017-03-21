@@ -1,6 +1,6 @@
-## Cloud Based Context Manager Payload Examples
+## Context Manager Payload Examples
 
-The cloud based context manager takes the filtered output of the matchmaking process, evaluates the current context, and decides which context should be selected.
+The context manager running on GPII Cloud is the provisional part of the GPII architecture. It takes the filtered output of the matchmaking process, evaluates the current context, and decides which context should be selected.
 
 See [the ContextManager documentation](https://github.com/GPII/universal/blob/master/documentation/ContextManager.md) for more details.
 
@@ -10,7 +10,7 @@ See [the ContextManager documentation](https://github.com/GPII/universal/blob/ma
 
 ### Input Payload
 
-The payload received at the cloud based context manager is identical with [the payload returned by the OAuth server](OAuthServer.md#user-content-return-payload).
+The payload received at the context manager is identical with [the payload returned by the OAuth server](OAuthServer.md#user-content-return-payload).
 
 #### Return Payload
 
