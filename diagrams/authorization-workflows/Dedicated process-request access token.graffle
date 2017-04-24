@@ -501,11 +501,11 @@
 				<key>stroke</key>
 				<dict>
 					<key>HeadArrow</key>
-					<string>FilledArrow</string>
+					<string>0</string>
 					<key>Legacy</key>
 					<true/>
 					<key>TailArrow</key>
-					<string>0</string>
+					<string>FilledArrow</string>
 				</dict>
 			</dict>
 		</dict>
@@ -671,8 +671,9 @@
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs24 \cf0 Windows Service\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\i (
+\i \cf0 (
 \fs20 client id/secret
 \fs24 )}</string>
 			</dict>
@@ -1123,7 +1124,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-02-23 21:36:55 +0000</string>
+	<string>2017-04-24 14:58:09 +0000</string>
 	<key>Modifier</key>
 	<string>Cindy Qi Li</string>
 	<key>NotesVisible</key>
