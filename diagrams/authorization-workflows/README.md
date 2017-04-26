@@ -30,3 +30,9 @@ The exported PNG format of this source file is used on the wiki page of [Protect
 * Yubikey OTP.graffle: the workflow to request client secret from GPII cloud with Yubikey OTP (one time password).
 
 The exported PNG format of these source files are used on the wiki page of [Continued Researches on Possible Approaches for Protecting Communication btw LFM and CBFM](https://wiki.gpii.net/w/Continued_Researches_on_Possible_Approaches_for_Protecting_Communication_btw_LFM_and_CBFM#The_Workflow_of_Using_OAuth2_Client_ID.2FSecret).
+
+## The Design for using a Dedicated Process to Store the Client Secret
+
+* Workflow between GPII app and GPII cloud.graffle: http endpoint design for the communication between the local GPII application and GPII Cloud.
+
+The exported PNG format of these source files are used on the wiki page of [Designs of Using a Dedicated Process to Protect the Client Secret Assigned to a Local GPII Application](https://wiki.gpii.net/index.php?title=Designs_of_Using_a_Dedicated_Process_to_Protect_the_Client_Secret_Assigned_to_GPII_Local_Installation).
