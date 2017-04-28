@@ -135,7 +135,7 @@
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\b\fs24 \cf0 Authorization Token}</string>
+\f0\b\fs24 \cf0 Authorization Code}</string>
 						<key>VerticalPad</key>
 						<integer>0</integer>
 					</dict>
@@ -486,7 +486,7 @@ Client ID &amp; hmac_sha256\
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs24 \cf0 Access Token Request &amp;\
-Authorization Token &amp; User Token}</string>
+Authorization Code &amp; GPII Token}</string>
 						<key>VerticalPad</key>
 						<integer>0</integer>
 					</dict>
@@ -1359,7 +1359,7 @@ Client ID}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-04-26 19:59:52 +0000</string>
+	<string>2017-04-27 15:16:27 +0000</string>
 	<key>Modifier</key>
 	<string>Cindy Qi Li</string>
 	<key>NotesVisible</key>
@@ -1445,7 +1445,7 @@ Client ID}</string>
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{129, 71}, {930, 781}}</string>
+		<string>{{73, 91}, {930, 652}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -1459,7 +1459,7 @@ Client ID}</string>
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{-28, -49}, {811.22447400726639, 652.04080363602918}}</string>
+		<string>{{-28, 0}, {811.22447400726639, 520.40815313673693}}</string>
 		<key>Zoom</key>
 		<real>0.98000001907348633</real>
 		<key>ZoomValues</key>
