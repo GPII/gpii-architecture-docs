@@ -26,7 +26,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-05-05 20:33:34 +0000</string>
+	<string>2017-05-23 18:23:17 +0000</string>
 	<key>Modifier</key>
 	<string>Cindy Qi Li</string>
 	<key>NotesVisible</key>
@@ -60,7 +60,7 @@
 		<key>NSPaperSize</key>
 		<array>
 			<string>size</string>
-			<string>{792, 612.00002098083496}</string>
+			<string>{792, 612}</string>
 		</array>
 		<key>NSPrintReverseOrientation</key>
 		<array>
@@ -90,7 +90,7 @@
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {756, 553.00002098083496}}</string>
+				<string>{{0, 0}, {756, 553}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -875,7 +875,7 @@
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{252.50384521484375, 435.02040814340535}, {328, 17}}</string>
+					<string>{{139.6607588037557, 435.71427723409147}, {497.64535522460938, 17}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -914,7 +914,7 @@
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\b\fs28 \cf0 The Workflow to Request an Access Token}</string>
+\f0\b\fs28 \cf0 GPII Native Application Request Access Token via Encrypted Client Secret}</string>
 						<key>VerticalPad</key>
 						<integer>0</integer>
 					</dict>
@@ -1319,7 +1319,7 @@
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {756, 553.00002098083496}}</string>
+				<string>{{0, 0}, {756, 553}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -1394,7 +1394,7 @@
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\b\fs26 \cf0 GPII App}</string>
+\f0\b\fs26 \cf0 Native GPII App}</string>
 						<key>VerticalPad</key>
 						<integer>0</integer>
 					</dict>
@@ -1669,7 +1669,7 @@
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs24 \cf0 GPII Access Requester \
-(Run using an admin or a system account)\
+(Run with a different account than the login user)\
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \i \cf0 (
@@ -1780,7 +1780,7 @@
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs24 \cf0 GPII Local Flow Manager \
-(Run using the login user account)}</string>
+(Run with the login user account)}</string>
 					</dict>
 				</dict>
 				<dict>
@@ -2017,7 +2017,7 @@
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{175.63264401859686, 521}, {454.4298095703125, 17}}</string>
+					<string>{{121, 517}, {498, 17}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -2056,7 +2056,7 @@
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\b\fs28 \cf0 GPII Native Application Request Access Token Workflow - Design 2}</string>
+\f0\b\fs28 \cf0 GPII Native Application Request Access Token via GPII Access Requester}</string>
 						<key>VerticalPad</key>
 						<integer>0</integer>
 					</dict>
@@ -2307,7 +2307,7 @@ Flow Manager}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {756, 553.00002098083496}}</string>
+				<string>{{0, 0}, {756, 553}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -3008,7 +3008,7 @@ Flow Manager}</string>
 		<key>ExpandedCanvases</key>
 		<array/>
 		<key>Frame</key>
-		<string>{{73, 125}, {930, 652}}</string>
+		<string>{{73, 133}, {930, 652}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
