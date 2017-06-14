@@ -23,16 +23,20 @@ The exported PNG format of this source file is used on the wiki page of [Protect
 
 * Dedicated private machine.graffle: the workflow for public machines to request an access token from GPII cloud using dedicated private computer approach.
 
-* Dedicated process-request access token.graffle: the workflow for GPII app to request an access token using dedicated process approach.
+* Dedicated process-request access token.graffle: this graffle fiile contains a few diagrams that show the workflow and designs for GPII app to request an access token using dedicated process approach. 
 
 * Dedicated process-the start of gpii app.graffle: the workflow to start GPII using dedicated process approach.
 
 * Yubikey OTP.graffle: the workflow to request client secret from GPII cloud with Yubikey OTP (one time password).
 
-The exported PNG format of these source files are used on the wiki page of [Continued Researches on Possible Approaches for Protecting Communication btw LFM and CBFM](https://wiki.gpii.net/w/Continued_Researches_on_Possible_Approaches_for_Protecting_Communication_btw_LFM_and_CBFM#The_Workflow_of_Using_OAuth2_Client_ID.2FSecret).
+The exported PNG format of most of these source files are used on the wiki page of [Continued Researches on Possible Approaches for Protecting Communication btw LFM and CBFM](https://wiki.gpii.net/w/Continued_Researches_on_Possible_Approaches_for_Protecting_Communication_btw_LFM_and_CBFM#The_Workflow_of_Using_OAuth2_Client_ID.2FSecret).
 
-## The Design for using a Dedicated Process to Store the Client Secret
+The exported PNG format of diagrams from `Dedicated process-request access token.graffle` are used on the wiki page of [Designs of Using a Dedicated Process to Protect the Client Secret Assigned to a Local GPII Application](https://wiki.gpii.net/index.php?title=Designs_of_Using_a_Dedicated_Process_to_Protect_the_Client_Secret_Assigned_to_GPII_Local_Installation).
 
-* Workflow between GPII app and GPII cloud.graffle: http endpoint design for the communication between the local GPII application and GPII Cloud.
+## Request and Manage OAuth2 client credentials
 
-The exported PNG format of these source files are used on the wiki page of [Designs of Using a Dedicated Process to Protect the Client Secret Assigned to a Local GPII Application](https://wiki.gpii.net/index.php?title=Designs_of_Using_a_Dedicated_Process_to_Protect_the_Client_Secret_Assigned_to_GPII_Local_Installation).
+* OAuthCredential.bmpr: UI workflows of how GPII apps request client credentials from GPII Cloud, as well as how GPII users manage client credentials at a central website. 
+ 
+The exported PNG format of mockups from this file are used on the wiki page of [Workflows to request and manage client credentials](https://wiki.gpii.net/w/Workflows_to_Request_and_Manage_Client_Credentials).
+
+Use Balsamiq Mockups to edit this file.
