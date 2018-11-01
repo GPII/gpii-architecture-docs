@@ -431,7 +431,7 @@ An example of the output payload:
             "configuration": {
                 "type": "gpii.orca",
                 "options": {
-                    "user": "${{userToken}}"
+                    "user": "${{gpiiKey}}"
                 },
                 "capabilities": [
                     "display.screenReader",

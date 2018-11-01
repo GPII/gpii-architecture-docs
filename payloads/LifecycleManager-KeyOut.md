@@ -10,7 +10,7 @@ See [the description of Lifecycle Manager at GPII wiki](https://wiki.gpii.net/w/
 
 ### Input Payload - User Token
 
-An example of an `userToken`: `vladimir`
+An example of an `gpiiKey`: `vladimir`
 
 ### Return Payload
 Lifecycle Manager coordinates [Settings Handler](https://wiki.gpii.net/w/Settings_Handler) and [Lifecycle Handlers](https://wiki.gpii.net/w/Lifecycle_Handler) to restore the original solution states. See:

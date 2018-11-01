@@ -30,7 +30,7 @@ The payload received at the context manager is identical with [the payload retur
 
         }
     },
-    "userToken": "vladimir",
+    "gpiiKey": "vladimir",
     "preferences": {
         "contexts": {
             "gpii-default": {
@@ -609,7 +609,7 @@ The payload received at the context manager is identical with [the payload retur
                 "configuration": {
                     "type": "gpii.orca",
                     "options": {
-                        "user": "${{userToken}}"
+                        "user": "${{gpiiKey}}"
                     },
                     "capabilities": [
                         "display.screenReader",

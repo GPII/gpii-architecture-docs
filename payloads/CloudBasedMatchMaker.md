@@ -8,7 +8,7 @@ See [the MatchMaker documentation at GPII wiki](https://wiki.gpii.net/w/Architec
 
 ### Input Payload
 ```
-    "userToken": "vladimir",
+    "gpiiKey": "vladimir",
     "preferences": {
         "contexts": {
             "gpii-default": {
@@ -587,7 +587,7 @@ See [the MatchMaker documentation at GPII wiki](https://wiki.gpii.net/w/Architec
                 "configuration": {
                     "type": "gpii.orca",
                     "options": {
-                        "user": "${{userToken}}"
+                        "user": "${{gpiiKey}}"
                     },
                     "capabilities": [
                         "display.screenReader",
@@ -1578,7 +1578,7 @@ Once the matchmaker returns its matched data, both the matched and original data
             
         }
     },
-    "userToken": "vladimir",
+    "gpiiKey": "vladimir",
     "preferences": {
         "contexts": {
             "gpii-default": {
@@ -2157,7 +2157,7 @@ Once the matchmaker returns its matched data, both the matched and original data
                 "configuration": {
                     "type": "gpii.orca",
                     "options": {
-                        "user": "${{userToken}}"
+                        "user": "${{gpiiKey}}"
                     },
                     "capabilities": [
                         "display.screenReader",

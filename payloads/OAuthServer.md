@@ -38,7 +38,7 @@ The payload received at the OAuth server is identical with [the payload returned
 
         }
     },
-    "userToken": "vladimir",
+    "gpiiKey": "vladimir",
     "preferences": {
         "contexts": {
             "gpii-default": {
@@ -617,7 +617,7 @@ The payload received at the OAuth server is identical with [the payload returned
                 "configuration": {
                     "type": "gpii.orca",
                     "options": {
-                        "user": "${{userToken}}"
+                        "user": "${{gpiiKey}}"
                     },
                     "capabilities": [
                         "display.screenReader",

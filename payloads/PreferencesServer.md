@@ -8,9 +8,9 @@ See [the PreferencesServer documentation](https://github.com/GPII/universal/blob
 
 ### Input - GET Request
 
-URL: `/preferences/:userToken`
+URL: `/preferences/:gpiiKey`
 
-An example of the request parameter `userToken`: `vladimir`
+An example of the request parameter `gpiiKey`: `vladimir`
 
 ### Return Payload
  

@@ -8,7 +8,7 @@ See [the MatchMaker documentation at GPII wiki](https://wiki.gpii.net/w/Architec
 
 ### Input Payload
 
-The input payload contains all the inputs collected for the final part of the matchmaking process: `userToken, `preferences`, `solutionsRegistryEntries` and `deviceContext`.
+The input payload contains all the inputs collected for the final part of the matchmaking process: `gpiiKey, `preferences`, `solutionsRegistryEntries` and `deviceContext`.
 
 ```
 {
@@ -32,7 +32,7 @@ The input payload contains all the inputs collected for the final part of the ma
             
         }
     },
-    "userToken": "vladimir",
+    "gpiiKey": "vladimir",
     "preferences": {
         "contexts": {
             "gpii-default": {

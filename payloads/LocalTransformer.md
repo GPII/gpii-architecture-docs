@@ -112,7 +112,7 @@ The payload received at the local transformer is identical with [the payload ret
             
         }
     },
-    "userToken": "vladimir",
+    "gpiiKey": "vladimir",
     "preferences": {
         "contexts": {
             "gpii-default": {
@@ -702,7 +702,7 @@ Got final payload {
     "noise": {},
     "brightandnoise": {}
   },
-  "userToken": "vladimir",
+  "gpiiKey": "vladimir",
   "preferences": {
     "contexts": {
       "gpii-default": {
@@ -1257,7 +1257,7 @@ Got final payload {
 15:27:32.999:  Active contexts calculated to be: bright,gpii-default
 15:27:32.999:  New active contexts: bright,gpii-default
 15:27:33.000:  ===Context Manager evaluateConditions() - output payload: {
-    "userToken": "vladimir",
+    "gpiiKey": "vladimir",
     "lifecycleInstructions": {
         "org.gnome.desktop.a11y.magnifier": {
             "name": "GNOME Shell Magnifier",

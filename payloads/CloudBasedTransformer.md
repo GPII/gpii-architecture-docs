@@ -1,6 +1,6 @@
 ## Cloud Based Transformer Payload Examples
 
-The cloud based transformer transforms [the output of the context manager](CloudBasedContextManager.md#user-content-return-payload) into the lifecycle instructions.
+The cloud based transformer transforms [the output of the context manager](CloudBasedContextManager.md#user-content-return-payload) into the matchmaker output.
 
 See [the Transformer documentation](https://github.com/GPII/universal/blob/master/documentation/Transformer.md) for more details.
 
@@ -16,51 +16,21 @@ The payload received at the cloud based transformer is identical with [the paylo
 
 ```
 {
-    "lifecycleInstructions": {
-        "org.gnome.desktop.interface": {
-            "name": "GNOME Interface Settings",
-            "settingsHandlers": {
-                "configuration": {
-                    "type": "gpii.gsettings",
-                    "options": {
-                        "schema": "org.gnome.desktop.interface"
-                    },
-                    "settings": {
-                        "gtk-theme": "Adwaita",
-                        "icon-theme": "gnome"
-                    }
-                }
-            },
-            "configure": [
-                "settings.configuration"
-            ],
-            "restore": [
-                "settings.configuration"
-            ],
-            "isInstalled": [
-                {
-                    "type": "gpii.packageKit.find",
-                    "name": "gsettings-desktop-schemas"
-                }
-            ],
-            "active": true
-        }
-    },
     "activeContexts": [
         "gpii-default"
     ],
     "environmentReporter": {
-        
+
     },
     "inferredCommonTerms": {
         "gpii-default": {
-            
+
         },
         "subway": {
-            
+
         }
     },
-    "userToken": "vladimir",
+    "gpiiKey": "vladimir",
     "preferences": {
         "contexts": {
             "gpii-default": {
@@ -639,7 +609,7 @@ The payload received at the cloud based transformer is identical with [the paylo
                 "configuration": {
                     "type": "gpii.orca",
                     "options": {
-                        "user": "${{userToken}}"
+                        "user": "${{gpiiKey}}"
                     },
                     "capabilities": [
                         "display.screenReader",

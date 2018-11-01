@@ -1,6 +1,6 @@
 ## Payload Examples of Cloud Based Flow Manager in Untrusted Setting
 
-The cloud based flow manager (untrusted configuration) receives GET requests from the local flow manager and returns a payload with lifecycle instructions. This documentation shows examples of the GET request and return payload.
+The cloud based flow manager (untrusted configuration) receives GET requests from the local flow manager and returns a payload with matchmaker output. This documentation shows examples of the GET request and return payload.
 
 See [the FlowManager documentation at GPII wiki](https://wiki.gpii.net/w/Architecture_Overview#Flow_Manager) for more details.
 
@@ -9,51 +9,21 @@ See [the FlowManager documentation at GPII wiki](https://wiki.gpii.net/w/Archite
 2. [Return Payload](#user-content-return-payload)
 
 ### GET Request
-URL: `/:userToken/untrusted-settings/:device`
+URL: `/:gpiiKey/untrusted-settings/:device`
 
-An example of the request parameter `userToken`: `vladimir`
+An example of the request parameter `gpiiKey`: `vladimir`
 
 An example of the request parameter `device`: See [the output payload of device reporter](DeviceReporter.md)
 
 ### Return Payload
 
-The cloud based flow manager filters [the payload returned by Cloud Based Transformers](CloudBasedTransformer.md#user-content-return-payload) to only return these data sections: "userToken", "lifecycleInstructions", "activeContextName", "activeConfiguration", "solutionsRegistryEntries", "matchMakerOutput". The sensitive information, such as user preferences and device report, is removed from the return payload.
+The cloud based flow manager filters [the payload returned by Cloud Based Transformers](CloudBasedTransformer.md#user-content-return-payload) to only return these data sections: "gpiiKey", "activeContextName", "activeConfiguration", "solutionsRegistryEntries", "matchMakerOutput". The sensitive information, such as user preferences and device report, is removed from the return payload.
 
 Below is an example of the payload returned from the cloud based flow manager to the local flow manager:
 
 ```
 {
-    "lifecycleInstructions": {
-        "org.gnome.desktop.interface": {
-            "name": "GNOME Interface Settings",
-            "settingsHandlers": {
-                "configuration": {
-                    "type": "gpii.gsettings",
-                    "options": {
-                        "schema": "org.gnome.desktop.interface"
-                    },
-                    "settings": {
-                        "gtk-theme": "Adwaita",
-                        "icon-theme": "gnome"
-                    }
-                }
-            },
-            "configure": [
-                "settings.configuration"
-            ],
-            "restore": [
-                "settings.configuration"
-            ],
-            "isInstalled": [
-                {
-                    "type": "gpii.packageKit.find",
-                    "name": "gsettings-desktop-schemas"
-                }
-            ],
-            "active": true
-        }
-    },
-    "userToken": "vladimir",
+    "gpiiKey": "vladimir",
     "solutionsRegistryEntries": {
         "org.gnome.desktop.a11y.magnifier": {
             "name": "GNOME Shell Magnifier",
@@ -479,7 +449,7 @@ Below is an example of the payload returned from the cloud based flow manager to
                 "configuration": {
                     "type": "gpii.orca",
                     "options": {
-                        "user": "${{userToken}}"
+                        "user": "${{gpiiKey}}"
                     },
                     "capabilities": [
                         "display.screenReader",
