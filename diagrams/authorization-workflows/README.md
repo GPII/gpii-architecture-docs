@@ -3,10 +3,9 @@ GPII Authorization Workflow Diagrams
 
 ## GPII Authorization Workflows
 
-These source files of diagrams created to demonstrate GPII authorization workflows for 3 use cases:
+These source files of diagrams created to demonstrate GPII authorization workflows for 2 use cases:
 
-* Auth-directly integrated web apps.graffle: Directly integrated web applications
-* Auth-local flow manager to cloud based flow manager.graffle: Between GPII local flow manager to GPII cloud based flow manager 
+* Auth-local flow manager to cloud based flow manager.graffle: Between GPII local flow manager to GPII cloud based flow manager
 * Auth-locally integrated web apps.graffle: Locally integrated web applications
 
 The exported PNG format of these source files are used on the wiki page of [GPII Authorization Workflows](https://wiki.gpii.net/w/GPII_Authorization_Workflows).
@@ -23,7 +22,7 @@ The exported PNG format of this source file is used on the wiki page of [Protect
 
 * Dedicated private machine.graffle: the workflow for public machines to request an access token from GPII cloud using dedicated private computer approach.
 
-* Dedicated process-request access token.graffle: this graffle fiile contains a few diagrams that show the workflow and designs for GPII app to request an access token using dedicated process approach. 
+* Dedicated process-request access token.graffle: this graffle fiile contains a few diagrams that show the workflow and designs for GPII app to request an access token using dedicated process approach.
 
 * Dedicated process-the start of gpii app.graffle: the workflow to start GPII using dedicated process approach.
 
@@ -35,8 +34,8 @@ The exported PNG format of diagrams from `Dedicated process-request access token
 
 ## Request and Manage OAuth2 client credentials
 
-* OAuthCredential.bmpr: UI workflows of how GPII apps request client credentials from GPII Cloud, as well as how GPII users manage client credentials at a central website. 
- 
+* OAuthCredential.bmpr: UI workflows of how GPII apps request client credentials from GPII Cloud, as well as how GPII users manage client credentials at a central website.
+
 The exported PNG format of mockups from this file are used on the wiki page of [Workflows to request and manage client credentials](https://wiki.gpii.net/w/Workflows_to_Request_and_Manage_Client_Credentials).
 
 Use Balsamiq Mockups to edit this file.

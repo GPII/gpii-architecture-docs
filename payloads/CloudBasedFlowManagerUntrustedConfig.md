@@ -1,4 +1,4 @@
-## Payload Examples of Cloud Based Flow Manager in Untrusted Setting
+## Payload Examples of Cloud Based Flow Manager in Untrusted Configuration
 
 The cloud based flow manager (untrusted configuration) receives GET requests from the local flow manager and returns a payload with matchmaker output. This documentation shows examples of the GET request and return payload.
 
@@ -9,7 +9,7 @@ See [the FlowManager documentation at GPII wiki](https://wiki.gpii.net/w/Archite
 2. [Return Payload](#user-content-return-payload)
 
 ### GET Request
-URL: `/:gpiiKey/untrusted-settings/:device`
+URL: `/:gpiiKey/settings/:device`
 
 An example of the request parameter `gpiiKey`: `vladimir`
 

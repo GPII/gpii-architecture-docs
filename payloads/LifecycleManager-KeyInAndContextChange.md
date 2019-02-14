@@ -6,7 +6,7 @@ This document contains payload examples for both the user key in process and the
 
 ### Input Payload
 
-At the user key in process, the payload received at the lifecycle manager is identical with [the payload returned by the cloud based flow mananger](CloudBasedFlowManagerUntrustedSettings.md#user-content-return-payload).
+At the user key in process, the payload received at the lifecycle manager is identical with [the payload returned by the cloud based flow mananger](CloudBasedFlowManagerUntrustedConfig.md#user-content-return-payload).
 
 During the context change process, the payload received is identical with [the payload returned by the local transformer](LocalTransformer.md#user-content-return-payload).
 
